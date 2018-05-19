@@ -1,3 +1,10 @@
+//Korzystając ze struktury tm oraz funkcji z nagłówka time.h napisz program yearday, który wczytuje
+//ze standardowego wejścia datę w formacie yyyy mm dd i wypisuje na standardowe wyjście numer odpowiadającego
+//jej dnia w roku licząc od jednego dla pierwszego stycznia. Program używa tylko nagłówków
+//stdio.h i time.h.
+
+
+
 #include <stdio.h>      
 #include <time.h>       
 
