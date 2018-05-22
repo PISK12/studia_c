@@ -30,7 +30,7 @@ int main(){
     while (scanf("%lg",&value)==1){
         push(value);
     }
-    while (top!=NULL){
+    while (top){
         printf("%lg ",pop());
     }
 }
