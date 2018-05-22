@@ -26,8 +26,11 @@ double pop(){
 
 
 int main(){
-    push(5);
-    push(4);
-    printf("%lg ",pop());
-    printf("%lg ",pop());
+    double value;
+    while (scanf("%lg",&value)==1){
+        push(value);
+    }
+    while (top!=NULL){
+        printf("%lg ",pop());
+    }
 }
