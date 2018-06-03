@@ -9,23 +9,39 @@
 //include ani programu głównego.
 
 #include <stdio.h>
+#include <math.h>
 
-struct Polygon
-{
+struct Polygon{
+
 	int number;
 	double lenght
 };
 
+double area(const struct Polygon *p){
+	int n,a,r;
+	n=p->number;
+	a=p->lenght;
+	r=
+	return 
+}
+
+
+struct scaled(const struct Polygon *p){
+	
+};
+
+struct scale(struct Polygon *p){
+	
+};
 
 
 
-
-
-int main() {
+int main(){
 	struct Polygon polygon1 = {7, 10.};
 	printf("%lg\n", area(&polygon1));
 	struct Polygon polygon2 = scaled(&polygon1, 2.);
 	printf("%lg\n", area(&polygon2));
 	scale(&polygon1, 2.);
 	printf("%lg\n", area(&polygon1));
-return 0; }
+	return 0; 
+}

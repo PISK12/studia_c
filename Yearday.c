@@ -5,8 +5,8 @@
 
 
 
-#include <stdio.h>      
-#include <time.h>       
+#include <stdio.h>
+#include <time.h>
 
 int main ()
 {
@@ -27,8 +27,5 @@ int main ()
   mktime ( timeinfo );
 
   printf ("%i\n", timeinfo->tm_yday+1);
-  printf ("%i ", timeinfo->tm_year);
-  printf ("%i ", timeinfo->tm_mon);
-  printf ("%i ", timeinfo->tm_mday);
   return 0;
 }
